@@ -1,2 +1,3 @@
 data/.npm
 node_modules
+*.backup
