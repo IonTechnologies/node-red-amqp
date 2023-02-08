@@ -436,5 +436,65 @@
                 "file": "/usr/src/node-red/node_modules/node-red-contrib-amqp/lib/amqp.js"
             }
         }
+    },
+    "node-red-contrib-json-multi-schema": {
+        "name": "node-red-contrib-json-multi-schema",
+        "version": "1.5.1",
+        "local": false,
+        "user": false,
+        "nodes": {
+            "json-multi-schema-resolver": {
+                "name": "json-multi-schema-resolver",
+                "types": [
+                    "json-multi-schema-resolver"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red-contrib-json-multi-schema",
+                "file": "/usr/src/node-red/node_modules/node-red-contrib-json-multi-schema/json-multi-schema-resolver.js"
+            },
+            "json-multi-schema-transformer": {
+                "name": "json-multi-schema-transformer",
+                "types": [
+                    "json-multi-schema-transformer"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red-contrib-json-multi-schema",
+                "file": "/usr/src/node-red/node_modules/node-red-contrib-json-multi-schema/json-multi-schema-transformer.js"
+            },
+            "json-multi-schema-validator": {
+                "name": "json-multi-schema-validator",
+                "types": [
+                    "json-multi-schema-validator"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red-contrib-json-multi-schema",
+                "file": "/usr/src/node-red/node_modules/node-red-contrib-json-multi-schema/json-multi-schema-validator.js"
+            }
+        }
+    },
+    "node-red-contrib-mock-cli": {
+        "name": "node-red-contrib-mock-cli",
+        "version": "1.2.2",
+        "local": false,
+        "user": false,
+        "nodes": {
+            "test-node": {
+                "name": "test-node",
+                "types": [
+                    "test-node"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red-contrib-mock-cli",
+                "file": "/usr/src/node-red/node_modules/node-red-contrib-mock-cli/test-node.js"
+            }
+        }
     }
 }
